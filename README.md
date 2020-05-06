@@ -1,4 +1,4 @@
-# AutoRedfinAnalysis
+# PropertyBot
 This project conducts automated real estate analysis for the purpose of investing in single-family, multifamily, and passive syndication investments.
 
 #### -- Project Status: [Active]
