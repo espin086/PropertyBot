@@ -1,10 +1,10 @@
 # AutoRedfinAnalysis
 This project conducts automated real estate analysis for the purpose of investing in single-family, multifamily, and passive syndication investments.
 
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [Active]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to produce a set of tools to automate the due diligence portion of real estate analysis. The main objectives are quick analysis of metropolitan areas & properties for sale. 
 
 ### Partner
 * [Name of Partner organization/Government department etc..]
