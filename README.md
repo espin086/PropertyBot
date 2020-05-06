@@ -52,10 +52,7 @@ The purpose of this project is to produce a set of tools to automate the due dil
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
+* [Rreal Estate Investment Calculator](https://github.com/espin086/AutoRedfinAnalysis/blob/master/rental_investment_calculator.ipynb)
 
 ## Contributing DSWG Members
 
