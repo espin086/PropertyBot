@@ -58,7 +58,7 @@ The purpose of this project is to produce a set of tools to automate the due dil
 
 ## Contributing DSWG Members
 
-**Team Leads (Contacts) : [JJ Espinoza](https://github.com/espin086) jj.espinoza.la@gmail.com**
+**Team Leads (Contacts) : [JJ Espinoza](https://github.com/espin086):  email: jj.espinoza.la@gmail.com**
 
 #### Other Members:
 
