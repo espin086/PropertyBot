@@ -19,21 +19,31 @@ The purpose of this project is to produce a set of tools to automate the due dil
 * Jupyter
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 
 **Hypotheses**
+1. A combination of Census data & Historical Listings can inform investment strategy & tactics
+2. Profitable investments can be identified automatically using investor criteria (e.g., IRR, NPV, etc.)
 
 **Data Sources**
+1. Listing data comes from Redfin.com & Zillow.com
+2. Syndication data comes from Crowdstreet.com
+3. Census data comes from the American Community Survey
 
 **Analysis Framework**
+1. Identify desirable metropolitan areas by population growth, income growth, demographics, etc.
+2. Analyze hundreds of properties at scale: expected rents, model expenses, and arrive at profitability. 
+3. Create a Web Based tool to scale this analysis to investors across the United States.  
 
 **Blockers**
+1. Refactoring code to make it Flask/Web Page ready
+2. Automate the collection of data via APIs as opposed to manual downloads.
+3. Collect image data from property listings and classify them using Google Vision API. 
 
 
 ## Needs of this project
 
-- frontend developers with experience in Flask and Google Cloud
-- data engineers with experience building data pipelines using Airflow
+- frontend developers with experience in Flask and Heroku
+- data engineers with experience building data pipelines using Airflow/Google Cloud
 
 
 ## Getting Started
