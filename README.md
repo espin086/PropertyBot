@@ -52,7 +52,8 @@ The purpose of this project is to produce a set of tools to automate the due dil
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Rreal Estate Investment Calculator](https://github.com/espin086/AutoRedfinAnalysis/blob/master/rental_investment_calculator.ipynb)
+* [Real Estate Investment Calculator](https://github.com/espin086/AutoRedfinAnalysis/blob/master/rental_investment_calculator.ipynb)
+* [Optimizing Stock vs. Real Estate Investment Portfolio by City](https://github.com/espin086/AutoRedfinAnalysis/blob/master/realestate_vs_stocks/00_re_stock_tool.ipynb)
 
 ## Contributing DSWG Members
 
