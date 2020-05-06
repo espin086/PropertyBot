@@ -56,7 +56,7 @@ The purpose of this project is to produce a set of tools to automate the due dil
 * [Optimizing Stock vs. Real Estate Investment Portfolio by City](https://github.com/espin086/AutoRedfinAnalysis/blob/master/realestate_vs_stocks/00_re_stock_tool.ipynb)
 * [Exploration of Real Estate & Stock Market Returns](https://github.com/espin086/AutoRedfinAnalysis/blob/master/realestate_vs_stocks/01_exploratory_analysis.ipynb)
 
-## Contributing DSWG Members
+## Contributing Members
 
 **Team Leads (Contacts) : [JJ Espinoza](https://github.com/espin086):  email: jj.espinoza.la@gmail.com**
 
