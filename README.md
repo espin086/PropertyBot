@@ -58,7 +58,11 @@ The purpose of this project is to produce a set of tools to automate the due dil
 
 ## Contributing Members
 
-**Team Leads (Contacts) : [JJ Espinoza](https://github.com/espin086):  email: jj.espinoza.la@gmail.com**
+**Team Leads (Contacts) : 
+* [JJ Espinoza](https://github.com/espin086) 
+* jj.espinoza.la@gmail.com
+* [linkedin](https://www.linkedin.com/in/jjespinoza)
+* [Google Scholar Profile](https://scholar.google.com/citations?user=-SAt47cAAAAJ&hl=en)
 
 #### Other Members:
 
