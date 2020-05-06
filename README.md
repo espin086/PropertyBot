@@ -58,7 +58,7 @@ The purpose of this project is to produce a set of tools to automate the due dil
 
 ## Contributing DSWG Members
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
+**Team Leads (Contacts) : [JJ Espinoza](https://github.com/espin086) jj.espinoza.la@gmail.com**
 
 #### Other Members:
 
@@ -67,7 +67,3 @@ The purpose of this project is to produce a set of tools to automate the due dil
 |[Full Name](https://github.com/[github handle])| @johnDoe        |
 |[Full Name](https://github.com/[github handle]) |     @janeDoe    |
 
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
