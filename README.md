@@ -6,28 +6,17 @@ This project conducts automated real estate analysis for the purpose of investin
 ## Project Intro/Objective
 The purpose of this project is to produce a set of tools to automate the due diligence portion of real estate analysis. The main objectives are quick analysis of metropolitan areas & properties for sale. 
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
-
-### Methods Used
+### Statistical Methods Used
 * Inferential Statistics
 * Machine Learning
 * Data Visualization
 * Predictive Modeling
-* etc.
+
 
 ### Technologies
-* R 
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Python 
+* Google Cloud
+* Jupyter
 
 ## Project Description
 (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
