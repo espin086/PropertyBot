@@ -55,7 +55,7 @@ The purpose of this project is to produce a set of tools to automate the due dil
 * [Real Estate Investment Calculator](https://github.com/espin086/AutoRedfinAnalysis/blob/master/rental_investment_calculator.ipynb)
 * [Optimizing Stock vs. Real Estate Investment Portfolio by City](https://github.com/espin086/AutoRedfinAnalysis/blob/master/realestate_vs_stocks/00_re_stock_tool.ipynb)
 * [Exploration of Real Estate & Stock Market Returns](https://github.com/espin086/AutoRedfinAnalysis/blob/master/realestate_vs_stocks/01_exploratory_analysis.ipynb)
-* [Finding Good Homes for Rent](www.google.com)
+* [Finding Good Homes for Rent](https://github.com/espin086/PropertyBot/blob/master/RentBot/RentHunter.ipynb)
 
 ## Contributing Members
 
