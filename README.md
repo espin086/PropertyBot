@@ -28,6 +28,7 @@ The purpose of this project is to produce a set of tools to automate the due dil
 1. Listing data comes from Redfin.com & Zillow.com
 2. Syndication data comes from Crowdstreet.com
 3. Census data comes from the American Community Survey
+4. Real Estate Market Data Comes from Zillow
 
 **Analysis Framework**
 1. Identify desirable metropolitan areas by population growth, income growth, demographics, etc.
