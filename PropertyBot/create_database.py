@@ -1,9 +1,12 @@
+"""
+Creates database from csv files
+"""
+
+
+import os
 import pandas as pd
 import sqlite3
 from datetime import datetime
-import os
-
-
 
 
 
@@ -29,6 +32,12 @@ def csv_to_db(csv_file, db_name, table_name,  if_exists):
     db = sqlite3.connect('data/{0}.db'.format(db_name))
     db.text_factory = str
 
+    #cleaning column names
+    df.columns = df.columns.str.replace('$', 'price')
+    df.columns = df.columns.str.replace('[^a-zA-Z]', '')
+    df.columns = df.columns.str.replace(' ', '_')
+    df.columns = map(str.lower, df.columns)
+
     #saving to database
     df.to_sql('{0}'.format(table_name), db, if_exists=if_exists)
 
@@ -37,4 +46,4 @@ def csv_to_db(csv_file, db_name, table_name,  if_exists):
     return None
 
 if __name__ == "__main__":
-    csv_to_db(csv_file='redfin_fort_worth', db_name='propertybot', table_name='listings',  if_exists='append')
+    csv_to_db(csv_file='redfin_2020-05-24-14-22-24', db_name='propertybot', table_name='listings',  if_exists='replace')
