@@ -45,5 +45,12 @@ def csv_to_db(csv_file, db_name, table_name,  if_exists):
     os.remove("data/{0}.csv".format(csv_file))
     return None
 
+def zillow_to_db():
+    #TODO: create function that pulls Zillow data into sqlite database.
+    """
+    Pulls data from Zillow's database and loads into a sqlite database.
+    """
+    return None
+
 if __name__ == "__main__":
     csv_to_db(csv_file='redfin_2020-05-24-14-22-24', db_name='propertybot', table_name='listings',  if_exists='replace')
