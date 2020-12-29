@@ -50,6 +50,7 @@ The purpose of this project is to produce a set of tools to automate the due dil
 ## Getting Started
 
 1. Clone this repo: ```git clone https://github.com/espin086/PropertyBot.git```
+2. pip install repo: ``` cd PropertyBot/ & pip install .```
 
 
 
