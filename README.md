@@ -67,10 +67,4 @@ The purpose of this project is to produce a set of tools to automate the due dil
 * [linkedin](https://www.linkedin.com/in/jjespinoza)
 * [Google Scholar Profile](https://scholar.google.com/citations?user=-SAt47cAAAAJ&hl=en)
 
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
 
