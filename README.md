@@ -51,9 +51,10 @@ The purpose of this project is to produce a set of tools to automate the due dil
 
 1. Clone this repo: ```git clone https://github.com/espin086/PropertyBot.git```
 2. pip install repo: ``` cd PropertyBot/ & pip install .```
-3. Use import repo into Python script: ```import PropertyBot```
-4. Get help for repo: ```help (PropertyBot)```
-5. To learn how to use modules in PropertyBot, get help for those repos: 
+3. Install xml scraper: ```sudo apt-get install python-lxml```
+4. Use import repo into Python script: ```import PropertyBot```
+5. Get help for repo: ```help (PropertyBot)```
+6. To learn how to use modules in PropertyBot, get help for those repos: 
 
 
 
