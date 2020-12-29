@@ -49,7 +49,8 @@ The purpose of this project is to produce a set of tools to automate the due dil
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+1. Clone this repo: ```git clone https://github.com/espin086/PropertyBot.git```
+
 
 
 ## Featured Notebooks/Analysis/Deliverables
