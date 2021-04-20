@@ -17,21 +17,27 @@ from pandas_datareader import data as pdr
 import seaborn as sns
 import matplotlib.pyplot as plt
 from numpy.linalg import inv, pinv
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[21]:
 
 
+HOME_PRICE_CSV = 'raw_home_values_metro_3_bedroom'
+HOME_RENT_CSV = 'raw_home_rents_metro'
+
+
 def prep_zillow(mycsv,value_name):
-    df = pd.read_csv('{0}.csv'.format(mycsv), encoding = "ISO-8859-1")
-    if mycsv == 'City_Zhvi_3bedroom':
-        df = df.drop('RegionID', axis=1)
-    df = df.melt(id_vars=['RegionName', 'State', 'Metro', 'CountyName', 'SizeRank'], 
+    df = pd.read_csv('data/{0}.csv'.format(mycsv), encoding = "ISO-8859-1")
+    
+    df = df.drop('RegionID', axis=1)
+    df = df.drop('RegionType', axis=1)
+    df = df.drop('StateName', axis=1)
+
+    df = df.melt(id_vars=['RegionName','SizeRank'], 
                              var_name='Year_Month', 
                              value_name=value_name
                             )
-    df = df.set_index(['RegionName', 'State','Year_Month', 'Metro', 'CountyName'])
+    df = df.set_index(['RegionName','SizeRank', 'Year_Month'])
     df.sort_index(inplace=True)
     return df
 
@@ -66,12 +72,13 @@ def total_return(prices):
 
 
 def merge_data(city):
-    home_price = prep_zillow(mycsv='City_Zhvi_3bedroom',value_name='home_price')
-    home_rent = prep_zillow(mycsv='City_MedianRentalPrice_3Bedroom',value_name='home_rent')
-    homes = home_price.merge(home_rent, how = 'left', on=['RegionName', 'Year_Month', 'State', 'CountyName', 'SizeRank', 'Metro'])
+    home_price = prep_zillow(mycsv=HOME_PRICE_CSV,value_name='home_price')
+    home_rent = prep_zillow(mycsv=HOME_RENT_CSV,value_name='home_rent')
+    homes = home_price.merge(home_rent, how = 'left', on=['RegionName', 'Year_Month','SizeRank'])
     homes.sort_index(inplace=True)
     homes = homes.fillna(0)
-    homes['adj_price'] = homes['home_price'] + homes['home_rent']
+    # homes['adj_price'] = float(homes['home_price']) + float(homes['home_rent'])
+    homes['adj_price'] = homes['home_price'].apply(lambda x: float(x))
     city = homes.loc[city]
     city = city.reset_index()
     city['return_realestate'] = (city.adj_price - city.adj_price.shift(1))/city.adj_price.shift(1)
@@ -146,7 +153,7 @@ def mpt(df, desired_returns):
 
 
 def get_city_list():
-    city_list = pd.read_csv('City_Zhvi_3bedroom.csv', encoding = "ISO-8859-1")
+    city_list = pd.read_csv('data/{0}.csv'.format(HOME_PRICE_CSV), encoding = "ISO-8859-1")
     return city_list['RegionName'].head(40)
 
 
@@ -172,7 +179,7 @@ def ui():
 # In[29]:
 
 
-# ui()
+ui()
 
 
 # ## Analysis of Different Cities
