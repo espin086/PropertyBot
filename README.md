@@ -49,11 +49,18 @@ The purpose of this project is to produce a set of tools to automate the due dil
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+1. Clone this repo: ```git clone https://github.com/espin086/PropertyBot.git```
+2. pip install repo: ``` cd PropertyBot/ & pip install .```
+3. Install xml scraper: ```sudo apt-get install python-lxml```
+4. Run scripts to collect Zillow data: ```python3 pull_zillow_stats.py```
+4. Use import repo into Python script: ```import PropertyBot```
+5. Get help for repo: ```help (PropertyBot)```
+6. To learn how to use modules in PropertyBot, get help for those repos: 
+
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Real Estate Investment Calculator](https://github.com/espin086/AutoRedfinAnalysis/blob/master/rental_investment_calculator.ipynb)
+* [Real Estate Investment Calculator](https://github.com/espin086/PropertyBot/blob/master/PropertyBot/notebooks/rental_investment_calculator.ipynb)
 * [Optimizing Stock vs. Real Estate Investment Portfolio by City](https://github.com/espin086/AutoRedfinAnalysis/blob/master/realestate_vs_stocks/00_re_stock_tool.ipynb)
 * [Exploration of Real Estate & Stock Market Returns](https://github.com/espin086/AutoRedfinAnalysis/blob/master/realestate_vs_stocks/01_exploratory_analysis.ipynb)
 * [Finding Good Homes for Rent](https://github.com/espin086/PropertyBot/blob/master/RentBot/RentHunter.ipynb)
@@ -66,10 +73,4 @@ The purpose of this project is to produce a set of tools to automate the due dil
 * [linkedin](https://www.linkedin.com/in/jjespinoza)
 * [Google Scholar Profile](https://scholar.google.com/citations?user=-SAt47cAAAAJ&hl=en)
 
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
 
